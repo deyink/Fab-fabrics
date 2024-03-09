@@ -1,19 +1,25 @@
 {
   "files": {
-    "main.css": "/fab-fabrics/static/css/main.7aca62c3.css",
-    "main.js": "/fab-fabrics/static/js/main.d411d7f9.js",
+    "main.css": "/fab-fabrics/static/css/main.1ed73073.css",
+    "main.js": "/fab-fabrics/static/js/main.102f842e.js",
     "static/js/453.c9772f7e.chunk.js": "/fab-fabrics/static/js/453.c9772f7e.chunk.js",
     "static/media/hero_vid.mp4": "/fab-fabrics/static/media/hero_vid.9e31302c3d5bef3965d8.mp4",
     "static/media/hero-vid.mp4": "/fab-fabrics/static/media/hero-vid.418d8933344ffdf8f0bf.mp4",
-    "static/media/about_img.jpg": "/fab-fabrics/static/media/about_img.f302e47ba869055e5ff7.jpg",
+    "static/media/about_img.webp": "/fab-fabrics/static/media/about_img.23c2d24ce26bc0e1b990.webp",
+    "static/media/testimonial_back.webp": "/fab-fabrics/static/media/testimonial_back.49dfd76749f086da581c.webp",
+    "static/media/carousel_img.webp": "/fab-fabrics/static/media/carousel_img.280e05dac482d181ae09.webp",
     "static/media/Fab_logo.jpg": "/fab-fabrics/static/media/Fab_logo.42e0d8ea4451bba3846d.jpg",
+    "static/media/slick.svg": "/fab-fabrics/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/fab-fabrics/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/fab-fabrics/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/fab-fabrics/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/fab-fabrics/index.html",
-    "main.7aca62c3.css.map": "/fab-fabrics/static/css/main.7aca62c3.css.map",
-    "main.d411d7f9.js.map": "/fab-fabrics/static/js/main.d411d7f9.js.map",
+    "main.1ed73073.css.map": "/fab-fabrics/static/css/main.1ed73073.css.map",
+    "main.102f842e.js.map": "/fab-fabrics/static/js/main.102f842e.js.map",
     "453.c9772f7e.chunk.js.map": "/fab-fabrics/static/js/453.c9772f7e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7aca62c3.css",
-    "static/js/main.d411d7f9.js"
+    "static/css/main.1ed73073.css",
+    "static/js/main.102f842e.js"
   ]
 }
