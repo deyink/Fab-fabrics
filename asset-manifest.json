@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/fab-fabrics/static/css/main.c6334676.css",
-    "main.js": "/fab-fabrics/static/js/main.c259c3c3.js",
+    "main.css": "/fab-fabrics/static/css/main.bda835b5.css",
+    "main.js": "/fab-fabrics/static/js/main.cc72b98e.js",
     "static/js/453.c9772f7e.chunk.js": "/fab-fabrics/static/js/453.c9772f7e.chunk.js",
     "static/media/hero-vid.mp4": "/fab-fabrics/static/media/hero-vid.418d8933344ffdf8f0bf.mp4",
+    "static/media/carousel_img2.webp": "/fab-fabrics/static/media/carousel_img2.511de5404a0a90018cfe.webp",
     "static/media/about_img.webp": "/fab-fabrics/static/media/about_img.23c2d24ce26bc0e1b990.webp",
     "static/media/testimonial_back.webp": "/fab-fabrics/static/media/testimonial_back.49dfd76749f086da581c.webp",
+    "static/media/carousel_img3.webp": "/fab-fabrics/static/media/carousel_img3.b38e52d19eb38b3957cc.webp",
     "static/media/carousel_img.webp": "/fab-fabrics/static/media/carousel_img.280e05dac482d181ae09.webp",
     "static/media/Fab_logo.jpg": "/fab-fabrics/static/media/Fab_logo.42e0d8ea4451bba3846d.jpg",
     "static/media/slick.svg": "/fab-fabrics/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -13,12 +15,12 @@
     "static/media/slick.ttf": "/fab-fabrics/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/fab-fabrics/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/fab-fabrics/index.html",
-    "main.c6334676.css.map": "/fab-fabrics/static/css/main.c6334676.css.map",
-    "main.c259c3c3.js.map": "/fab-fabrics/static/js/main.c259c3c3.js.map",
+    "main.bda835b5.css.map": "/fab-fabrics/static/css/main.bda835b5.css.map",
+    "main.cc72b98e.js.map": "/fab-fabrics/static/js/main.cc72b98e.js.map",
     "453.c9772f7e.chunk.js.map": "/fab-fabrics/static/js/453.c9772f7e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6334676.css",
-    "static/js/main.c259c3c3.js"
+    "static/css/main.bda835b5.css",
+    "static/js/main.cc72b98e.js"
   ]
 }
