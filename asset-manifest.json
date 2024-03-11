@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fab-fabrics/static/css/main.952271be.css",
-    "main.js": "/fab-fabrics/static/js/main.21bffd12.js",
+    "main.js": "/fab-fabrics/static/js/main.14ce3c94.js",
     "static/js/453.c9772f7e.chunk.js": "/fab-fabrics/static/js/453.c9772f7e.chunk.js",
     "static/media/hero-vid.mp4": "/fab-fabrics/static/media/hero-vid.418d8933344ffdf8f0bf.mp4",
     "static/media/carousel_img2.webp": "/fab-fabrics/static/media/carousel_img2.511de5404a0a90018cfe.webp",
@@ -17,11 +17,11 @@
     "static/media/slick.woff": "/fab-fabrics/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/fab-fabrics/index.html",
     "main.952271be.css.map": "/fab-fabrics/static/css/main.952271be.css.map",
-    "main.21bffd12.js.map": "/fab-fabrics/static/js/main.21bffd12.js.map",
+    "main.14ce3c94.js.map": "/fab-fabrics/static/js/main.14ce3c94.js.map",
     "453.c9772f7e.chunk.js.map": "/fab-fabrics/static/js/453.c9772f7e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.952271be.css",
-    "static/js/main.21bffd12.js"
+    "static/js/main.14ce3c94.js"
   ]
 }
