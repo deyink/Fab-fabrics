@@ -1,0 +1,42 @@
+.testimonial{
+    height: auto;
+    width: 100%;
+    position: relative;
+    scroll-behavior: smooth;
+    padding-bottom: 5rem;
+}
+.opacity{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:hsla(0, 84%, 48%, 0.834);
+    opacity: 0.5;
+    position: absolute;
+    
+
+}
+.slider{
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+   
+    
+}
+.slider img{
+    width: 200px;
+    height: 170px;
+    border-radius: 50%;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.slider p{
+    width: 75%;
+    margin: auto;
+}

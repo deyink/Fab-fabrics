@@ -1,0 +1,104 @@
+.footer{
+    height: auto;
+    width: 100%;
+    background-color: black;
+}
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 3rem;
+    
+   
+}
+.newsletter{
+    width: 100%;
+    background-color: gray;
+    padding: 2rem;
+   
+}
+.newsletter h4{
+    text-align: center;
+    font-size: 2rem;
+}
+@media(max-width:475px){
+    .newsletter h4{
+        font-size: 1rem;
+    }
+}
+#name{
+    
+    height: 2.2rem;
+    width: 80%;
+    
+}
+#email{
+    height: 2.2rem;
+    width: 80%;
+    margin-bottom: 2rem; ;
+}
+.contact{
+    width: 30%;
+    color: gray ;
+
+}
+.sub-btn{
+    background-color:hsla(0, 84%, 48%, 0.834);
+    padding: 11px 21px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+.sub-btn:hover{
+    background-color: black;
+}
+@media(max-width:990px){
+    .contact{
+        width: 90%;
+    }
+}
+.contact h5{
+    color: hsla(0, 68%, 35%, 0.834);
+
+}
+.sources{
+    width: 30%;
+    color: gray;
+    
+
+}
+.sources h5{
+    color: hsla(0, 68%, 35%, 0.834);
+
+}
+@media(max-width:990px){
+    .sources{
+        width: 90%;
+    }
+}
+.socials{
+    width: 30%;
+    color: gray;
+  
+   
+ 
+}
+.socials h5{
+    color: hsla(0, 68%, 35%, 0.834);
+
+}
+@media(max-width:990px){
+    .socials{
+        width: 90%;
+    }
+}
+.social-icon{
+    display: flex;
+
+}
+.social-icon p img{
+    padding: 0.3rem;
+    background-color:  white;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
