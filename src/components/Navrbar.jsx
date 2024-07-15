@@ -12,19 +12,31 @@ function Navbar() {
     AOS.init({duration:2000})
   }, [])
   const [under, setUnder] = useState('Home');
+  const [curr, setCurr] = useState('USD') 
+  
+  // const currData = [ 
+  //   { id: '1', value:'USD' },
+  //   { id: '2', value: 'EUR' },
+  //   { id: '3', value: 'DHR' },
+  //   { id: '4', value: 'NGN' },
+  //  ]
+
   
 
-  const showMobile = ()=>{
-    const sMobile = document.getElementById('mobile-nav') 
-    sMobile.style.right='0px';
-    // const hMenu = document.getElementsById('menu1')
-    // hMenu.style.display='none'
-  }
+  // const showMobile = ()=>{
+  //   const sMobile = document.getElementById('desktop') 
+  //   sMobile.style.display='flex';
+  //   // const hMenu = document.getElementsById('menu1')
+  //   // hMenu.style.display='none'
+  // }
 
-  const hideMobile =()=>{
-    const hMobile = document.getElementById('mobile-nav')
-    hMobile.style.right='-700px';
+  // const hideMobile =()=>{
+  //   const hMobile = document.getElementById('desktop')
+  //   hMobile.style.display='none';
    
+  // }
+  const handleChange= (e)=>{
+    setCurr(e.target.value)
   }
 
   // const hideOverlay =()=>{
@@ -45,12 +57,13 @@ function Navbar() {
 
       <div className="nav-container">
       <div className="logo">
-        <img src={Logo} alt="" width={'101'} height={'60px'} />
+        <img src={Logo} alt="" width={'80%'} height={'50px'} />
       </div>
       <div className="head-text">
         <h3>FAB-LUXURY</h3>
+        <h5>Home of luxury & Exclusive fabrics</h5>
       </div>
-
+     
       {/* Desktop Navbar */}
       <ul className="nav-list" id='desktop'  >
         <li onClick={()=>setUnder('Home')} >Home       { under==='Home'? <hr/> :<></> }     </li>
@@ -59,38 +72,37 @@ function Navbar() {
         <li onClick={()=>setUnder('About')} >About     {under==='About'?  <hr/>:<></> }    </li>
         <li onClick={()=>setUnder('Contact')} >Contact {under==='Contact'?  <hr/>:<></> }  </li>
         <li onClick={()=>setUnder('SignUp')} >SignUp   {under==='SignUp'? <hr/> :<></> }   </li>
-   
+        <p className='usd' > {curr} </p>
+        <select onChange={handleChange} >
+          <option  value='USD'> USD </option>
+          <option value='NGN'> NGN </option>
+          <option value='EUR'> EUR </option>
+          <option  value='DRM'> DRM </option>
+        </select>
       </ul>
-      <div className="menu">
+      
+      {/* <div className="menu">
       <img id='menu1' onClick={showMobile}  src={menu} alt="" width={'23px'} height={'23px'} />
-      </div>
-
+      </div> */}
+      
  
     
-   
-    
+      {/* #DF2E38 */}
+      <hr className='hr' />
+      <div className='categories' >
+        <ul>
+          <li>New</li>
+          <li>Top Designs</li>
+          <li> Accessories </li>
+          <li>Color</li>
+          <li>Trendings</li>
+          <li>Sales</li>
+        </ul>
+        
+      </div>
         
       
-      </div>
-
-           {/* mobile Nav bar */}
-           {/* <label id='overlay' htmlFor="close" onClick={hideMobile}  ></label> */}
-        
-           <div className="mobile-nav" id='mobile-nav'  >
-      <ul className='m-navlist' id='m-navlist'  >
-        <li onClick={hideMobile} >Home      </li>
-        <li onClick={hideMobile} >Fabrics  </li>
-        <li onClick={hideMobile} >Blogs    </li>
-        <li onClick={hideMobile} >About    </li>
-        <li onClick={hideMobile} >Contact  </li>
-        <li onClick={hideMobile} >SignUp  </li>
-          <li className='close'onClick={hideMobile} > <img src={close} alt="" width={'21px'} height={'21px'} />  </li>
-   
-      </ul>
-      
-      </div>
-      
-    
+      </div>    
     </div>
     
   )

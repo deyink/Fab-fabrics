@@ -17,11 +17,11 @@ function App() {
     <div>
 
       <Navbar   />
-      <Hero     />
-      <About    />
+     <Hero     />
+      {/* <About    />
       <Wedo     />
       <Whyfab   />
-      <Footer   />
+      <Footer   /> */}
 
     </div>
   );
