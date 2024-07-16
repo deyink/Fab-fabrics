@@ -5,6 +5,7 @@ import menu from '../assets/menuw.png'
 import close from '../assets/close.png'
 import AOS from "aos"
 import "aos/dist/aos.css"
+import pound from '../assets/pound.png'
 
 
 function Navbar() {
@@ -36,7 +37,9 @@ function Navbar() {
    
   // }
   const handleChange= (e)=>{
-    setCurr(e.target.value)
+    const pick = e.target.value
+    setCurr(pick)
+    if(pick === 'USD') { return <img src={pound} alt="" /> }
   }
 
   // const hideOverlay =()=>{
@@ -72,7 +75,8 @@ function Navbar() {
         <li onClick={()=>setUnder('About')} >About     {under==='About'?  <hr/>:<></> }    </li>
         <li onClick={()=>setUnder('Contact')} >Contact {under==='Contact'?  <hr/>:<></> }  </li>
         <li onClick={()=>setUnder('SignUp')} >SignUp   {under==='SignUp'? <hr/> :<></> }   </li>
-        <p className='usd' > {curr} </p>
+        
+        <p className='usd' > <img src={pound} alt="" /> {curr} </p>
         <select onChange={handleChange} >
           <option  value='USD'> USD </option>
           <option value='NGN'> NGN </option>
