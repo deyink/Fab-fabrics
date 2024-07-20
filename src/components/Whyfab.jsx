@@ -20,9 +20,9 @@ const Whyfab = ()=>{
                   <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem inventore laudantium quia tempore voluptatum 
                   </p>
-
+  
                 </div>
-                <div className="box" data-aos="fade-left" >
+              <div className="box" data-aos="fade-left" >
                   <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem inventore laudantium quia tempore voluptatum 
                   </p>
@@ -51,13 +51,8 @@ const Whyfab = ()=>{
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem inventore laudantium quia tempore voluptatum 
                   </p>
-                    </div>
-
-                   
-
-                 
-
-                </div>
+            </div>
+            </div>
             
               
 

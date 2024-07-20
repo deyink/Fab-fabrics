@@ -1,0 +1,32 @@
+.collection{
+    height: 100vh;
+    width: 100%;
+    padding-top: 5%;
+
+}
+p{
+    color: black;
+    font-size: .75rem;
+    margin-bottom: 1rem;
+
+}
+.container{
+    height: auto;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.box-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+}
+.col-box{
+    width: 33%;
+    height: 250px;
+    background-color: yellow;
+}
+img{
+    height: 90%;
+    width: 100%;
+}
