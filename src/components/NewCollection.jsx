@@ -11,13 +11,13 @@ function NewCollection() {
             <div className="box-container">
            
                 <div className="col-box">
-                    <img src={img1} />
+                    <img className='col-img' src={img1} alt='' />
                 </div>
                 <div className="col-box">
-                    <img src={img2} alt="" />
+                    <img className='col-img' src={img2} alt="" />
                 </div>
                 <div className="col-box">
-                    <img src={img3} alt="" />
+                    <img className='col-img' src={img3} alt="" />
                 </div>
             </div>
         </div>
