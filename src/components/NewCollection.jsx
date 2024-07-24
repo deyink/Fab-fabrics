@@ -1,28 +1,58 @@
-import React from 'react'
-import './css/NewCollection.css'
-import img1 from '../assets/product_10.jpg'
-import img2 from '../assets/product_11.jpg'
-import img3 from  '../assets/product_18.jpg'
-function NewCollection() {
-  return (
-    <div className='collection' >
-        <div className="container">
-            <p>Home / features / </p>
-            <div className="box-container">
-           
-                <div className="col-box">
-                    <img className='col-img' src={img1} alt='' />
-                </div>
-                <div className="col-box">
-                    <img className='col-img' src={img2} alt="" />
-                </div>
-                <div className="col-box">
-                    <img className='col-img' src={img3} alt="" />
-                </div>
-            </div>
-        </div>
-    </div>
-  )
-}
+import React, { useState, useEffect } from 'react';
+import '../components/css/NewCollection.css';
+import lt from '../assets/lt.png';
+import gt from '../assets/gt.png'
+const Carousel = () => {
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const slides = [
+    {
+      content: 'Luxury Wedding Fabrics',
+      background: 'url(https://plus.unsplash.com/premium_photo-1661768612925-53da155c6d44?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
+    },
+    {
+      content: 'Slide 2 Content',
+     background: 'url(https://images.unsplash.com/photo-1590507673164-6c6d319f9b84?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
+    },
+    {
+      content: 'Alide 3 COntent',
+      background: 'url(https://images.unsplash.com/photo-1717409014701-8e630ff057f3?q=80&w=1634&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)'
+    },
+    {
+      content: 'Slide 4 Content',
+      background:'url(https://images.unsplash.com/photo-1634640249833-7307e385f148?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
+    }
+  ];
 
-export default NewCollection
+  const nextSlide = () => {
+    setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
+  };
+
+  const prevSlide = () => {
+    setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
+  };
+  // useEffect(() => {
+  //   const interval = setInterval(nextSlide, 3000); // Change slide every 3 seconds
+  //   return () => clearInterval(interval); // Cleanup interval on component unmount
+  // }, []);
+
+  return (
+    <div className="carousel-container">
+      {slides.map((slide, index) => (
+        <div
+          key={index}
+          className="slide"
+          style={{
+            transform: `translateX(-${currentSlide * 100}%)`,
+            backgroundImage: slide.background,
+          }}
+        >
+          <div className="slide-content">{slide.content}</div>
+        </div>
+      ))}
+      <button className="prev-button" id='btn-ar' onClick={prevSlide}> <img src={lt} alt="" /> </button>
+      <button className="next-button" id='btn-ar' onClick={nextSlide}> <img src={gt} alt="" /> </button>
+    </div>
+  );
+};
+
+export default Carousel;

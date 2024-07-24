@@ -9,3 +9,6 @@ body {
   padding-right: 2%;
 }
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

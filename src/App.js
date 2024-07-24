@@ -10,7 +10,6 @@ import NewCollection from './components/NewCollection';
 
 
 
-
 function App() {
 
   
@@ -18,8 +17,11 @@ function App() {
     <div>
 
       <Navbar   />
-     <Hero     />
-     <NewCollection />
+       {/* <Hero     /> */}
+      <NewCollection />
+
+ 
+
       {/* <About    />
       <Wedo     />
       <Whyfab   />
