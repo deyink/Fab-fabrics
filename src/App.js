@@ -8,6 +8,10 @@ import Wedo from './components/Wedo';
 import Blog from './components/Blog';
 import NewCollection from './components/NewCollection';
 import Designs from './components/Designs';
+import Carousel2 from './components/Carousel2';
+
+
+
 
 
 
@@ -18,11 +22,11 @@ function App() {
     <div>
 
       <Navbar   />
-       {/* <Hero     /> */}
       <NewCollection />
       <Designs />
- 
-
+      <Carousel2 />
+   
+       {/* <Hero     /> */}
       {/* <About    />
       <Wedo     />
       <Whyfab   />

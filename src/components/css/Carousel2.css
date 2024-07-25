@@ -1,0 +1,21 @@
+.slide-container{
+    width: 90%;
+    height: 60vh;
+
+    margin: auto;
+    margin-top: 3%;
+}
+.carousels{
+    background-color: yellow;
+    
+}
+.left-container{
+    background-color: blue;
+    width: 49.5%;
+    float: left;
+}
+.right-container{
+    background-color: red;
+    width: 49.5%;
+    float: right;
+}

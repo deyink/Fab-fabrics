@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import '../components/css/NewCollection.css';
 import lt from '../assets/lt.png';
 import gt from '../assets/gt.png'
+
 const Carousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
