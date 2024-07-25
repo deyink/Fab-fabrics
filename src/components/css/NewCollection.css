@@ -1,12 +1,24 @@
 .carousel-container {
     display: flex;
     overflow: hidden;
-    width: 95%;
+    width: 90%;
     position: relative;
     margin: auto;
     margin-top: 2%;
     height: 65vh;
   }
+  @media(max-width:800px){
+    .carousel-container{
+      margin-top: 0;
+    }
+  }
+  @media(max-width:500px){
+    .carousel-container{
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  
   
   .slide {
     min-width: 100%;
