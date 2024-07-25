@@ -22,13 +22,19 @@
   }
   
   .slide-content {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
     padding: 10px;
     
     color: white;
 
   }
-  
+  .view-collection{
+    padding: 8px;
+    background-color: blueviolet;
+    font-size: .5rem;
+    width: 100%;
+    margin-top: 20px;
+  }
   button {
     position: absolute;
     top: 50%;

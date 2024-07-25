@@ -7,6 +7,7 @@ import Whyfab from './components/Whyfab';
 import Wedo from './components/Wedo';
 import Blog from './components/Blog';
 import NewCollection from './components/NewCollection';
+import Designs from './components/Designs';
 
 
 
@@ -19,7 +20,7 @@ function App() {
       <Navbar   />
        {/* <Hero     /> */}
       <NewCollection />
-
+      <Designs />
  
 
       {/* <About    />

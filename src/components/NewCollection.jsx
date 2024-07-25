@@ -8,18 +8,22 @@ const Carousel = () => {
     {
       content: 'Luxury Wedding Fabrics',
       background: 'url(https://plus.unsplash.com/premium_photo-1661768612925-53da155c6d44?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
+      add: <a href="#"></a>
     },
     {
-      content: 'Slide 2 Content',
+      content: 'New Collections',
      background: 'url(https://images.unsplash.com/photo-1590507673164-6c6d319f9b84?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
+     add: <a href="#"></a>
     },
     {
-      content: 'Alide 3 COntent',
-      background: 'url(https://images.unsplash.com/photo-1717409014701-8e630ff057f3?q=80&w=1634&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)'
+      content: 'Exclusive Accessories  ',
+      background: 'url(https://images.unsplash.com/photo-1717409014701-8e630ff057f3?q=80&w=1634&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
+      add: <a href="#"></a>
     },
     {
-      content: 'Slide 4 Content',
+      content: 'WHite Lace Fabrics',
       background:'url(https://images.unsplash.com/photo-1634640249833-7307e385f148?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
+      add: <a href="#"></a>
     }
   ];
 
@@ -30,10 +34,10 @@ const Carousel = () => {
   const prevSlide = () => {
     setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
   };
-  // useEffect(() => {
-  //   const interval = setInterval(nextSlide, 3000); // Change slide every 3 seconds
-  //   return () => clearInterval(interval); // Cleanup interval on component unmount
-  // }, []);
+  useEffect(() => {
+    const interval = setInterval(nextSlide, 3000); // Change slide every 3 seconds
+    return () => clearInterval(interval); // Cleanup interval on component unmount
+  }, );
 
   return (
     <div className="carousel-container">
@@ -47,8 +51,11 @@ const Carousel = () => {
           }}
         >
           <div className="slide-content">{slide.content}</div>
+       
         </div>
+       
       ))}
+      
       <button className="prev-button" id='btn-ar' onClick={prevSlide}> <img src={lt} alt="" /> </button>
       <button className="next-button" id='btn-ar' onClick={nextSlide}> <img src={gt} alt="" /> </button>
     </div>
