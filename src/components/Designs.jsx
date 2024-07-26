@@ -11,7 +11,7 @@ function Designs() {
           <div className="d-box"> <img className='cat-img' src={cat1} alt="" /> <div className="cat-name"> New Collection </div> </div>
           <div className="d-box"> <img className='cat-img' src={cat2} alt="" /> <div className="cat-name"> Exclusive Designs </div> </div>
           <div className="d-box"> <img className='cat-img' src={cat3} alt="" /> <div className="cat-name"> Luxurious Fabrics </div> </div>
-          <div className="d-box"> <img className='cat-img' src={cat4} alt="" /> <div className="cat-name"> Luxurious Fabrics </div> </div>
+          <div className="d-box"> <img className='cat-img' src={cat4} alt="" /> <div className="cat-name"> Fashion & Accessories </div> </div>
         </div>
     </div>
   )

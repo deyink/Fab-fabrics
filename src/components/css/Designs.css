@@ -28,7 +28,7 @@
 
 
 .d-box{
-    height: 180px;
+    height: 230px;
     width: 24%;
     background-color: brown;
     overflow: hidden;
@@ -50,10 +50,10 @@
 }
 .cat-name{
     background-color: brown;
-    height: 15px;
+    height: 15%;
     width: 100%;
     margin-left: 25%;
-    font-size: .8rem;
+    font-size: .79rem;
     margin-top: auto;
 
 }

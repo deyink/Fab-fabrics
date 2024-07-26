@@ -7,12 +7,12 @@ const Carousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
     {
-      content: 'Luxury Wedding Fabrics',
-      background: 'url(https://plus.unsplash.com/premium_photo-1661768612925-53da155c6d44?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
+      content: 'New Collections',
+      background: 'url(https://images.unsplash.com/photo-1528355733424-0712487f673f?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
       add: <a href="#"></a>
     },
     {
-      content: 'New Collections',
+      content: 'Luxury Design',
      background: 'url(https://images.unsplash.com/photo-1590507673164-6c6d319f9b84?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
      add: <a href="#"></a>
     },
@@ -49,8 +49,8 @@ const Carousel = () => {
           style={{
             transform: `translateX(-${currentSlide * 100}%)`,
             backgroundImage: slide.background,
-          }}
-        >
+          }}>
+            
           <div className="slide-content">{slide.content}</div>
        
         </div>

@@ -9,7 +9,7 @@ const Carousel2= ()=> {
  const content_arr = [
     {
         head: 'Exclusive Arabian Brocade Lace',
-        descp: 'Every fashion minded needs, collection of differenct arabian exclusive fabrics, that dares fashion, it speaks nothing but luxuruy',
+        dscrp: 'Every fashion minded needs, collection of differenct arabian exclusive fabrics, that dares fashion, it speaks nothing but luxuruy',
         pic: <img src={wedo} alt="" width='100%' height='100%' />
     },
  ];
@@ -32,10 +32,12 @@ const Carousel2= ()=> {
         {content_arr.map((content, index)=>(
             <div key={index} className="carousels">
                 <div className="left-container">
-                    <h3> {content.head} </h3>
+                    <h3> {content.head} </h3> <br /> <br />
+                    <p> {content.dscrp} </p>
                 </div>
                 <div className="right-container">
                     <div className="caro-img">{content.pic}</div>
+                    <div className="dscp"></div>
                 </div>
             </div>
         ))}
