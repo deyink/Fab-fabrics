@@ -79,6 +79,26 @@
       margin-top: -40%;
     }
   }
+  .indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px;
+  }
+  
+  .indicator {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .indicator.active {
+    background-color: rgba(255, 255, 255, 1);
+  }
 /*   
   @media (max-width: 500px) {
     .slide {

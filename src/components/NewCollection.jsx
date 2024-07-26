@@ -67,6 +67,15 @@ const Carousel = () => {
       
       <button className="prev-button" id='btn-ar' onClick={prevSlide}> <img src={lt} alt="" /> </button>
       <button className="next-button" id='btn-ar' onClick={nextSlide}> <img src={gt} alt="" /> </button>
+      <div className="indicators">
+        {slides.map((_, index) => (
+          <span
+            key={index}
+            className={`indicator ${currentSlide === index ? 'active' : ''}`}
+            onClick={() => setCurrentSlide(index)}
+          />
+        ))}
+      </div>
     </div>
   );
 };

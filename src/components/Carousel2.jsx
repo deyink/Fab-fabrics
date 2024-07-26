@@ -3,6 +3,7 @@ import '../components/css/Carousel2.css'
 import wedo from '../assets/wedo.jpg'
 import lt from '../assets/lt.png';
 import gt from '../assets/gt.png'
+import { useSwipeable } from 'react-swipeable';
 const Carousel2= ()=> {
 
  const [currentSlide, setCurrentSlide] = useState(0);
@@ -43,8 +44,18 @@ const Carousel2= ()=> {
   }, );
 
 
+  const handlers = useSwipeable( {
+    onSwipedLeft: nextSlide,
+    onSwipedRight: prevSlide,
+    preventDefaultTouchmoveEvent: true,
+    trackMouse: true
+    
+  } )
+
+
+
   return (
-    <div className="slide-container">
+    <div className="slide-container" {...handlers} >
         {content_arr.map((content, index)=>(
             <div key={index} className="carousels" style={{transform: `translateX(-${currentSlide * 100}%)`,
           }} >
