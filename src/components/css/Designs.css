@@ -21,7 +21,7 @@
 @media(max-width:800px){
     .designs-container{
         height: auto;
-        gap: .9rem;
+        gap: .5rem;
     }
 }
 

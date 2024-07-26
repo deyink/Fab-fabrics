@@ -47,7 +47,7 @@
     width: 100%;
     margin-top: 20px;
   }
-  button {
+  .prev-button, .next-button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);

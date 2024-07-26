@@ -1,28 +1,88 @@
 .slide-container{
     width: 90%;
-    height: auto;
     overflow: hidden;
     margin: auto;
-    margin-top: 3%;
+    margin-top: 32px;
+    display: flex;
 }
+@media(max-width:500px){
+    .slide-container{
+        width: 98%;
+    }
+}
+
 .carousels{
-    background-color: yellow;
-    
+    /* background-color: yellow; */
+    transition: transform 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+}
+@media(max-width:800px){
+    .carousels{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: auto;
+    }
 }
 .left-container{
-    background-color: blue;
+    /* background-color: blue; */
     width: 59.5%;
     float: left;
-    padding: 90px;
+    padding: 50px;
     
 }
-.left-container h3,.left-container p{
+@media(max-width:800px){
+    .left-container{
+        width: 100%;
+        padding: 0;
+    
+    }
+    .left-container h3{
+        text-align: center;
+    }
+}
+.left-container h3{
+    color: brown;
+    font-size: 2rem;
+}
+.left-container p{
     color: black;
 }
 .right-container{
-    background-color: red;
+    /* background-color: red; */
     width: 39.5%;
     float: right;
     padding-right: 5%;
     margin: auto;
 }
+@media(max-width:800px){
+    .right-container{
+        padding: 0;
+        width: 100%;
+    }
+    .right-container .caro-img{
+
+    }
+}
+/* button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .prev-button {
+    left: 10px;
+  }
+  
+  .next-button {
+    right: 10px;
+  } */

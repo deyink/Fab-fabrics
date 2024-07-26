@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useSwipeable } from 'react-swipeable';
 import '../components/css/NewCollection.css';
 import lt from '../assets/lt.png';
 import gt from '../assets/gt.png'
@@ -40,8 +41,15 @@ const Carousel = () => {
     return () => clearInterval(interval); // Cleanup interval on component unmount
   }, );
 
+  const handlers = useSwipeable({
+    onSwipedLeft: nextSlide,
+    onSwipedRight: prevSlide,
+    preventDefaultTouchmoveEvent: true,
+    trackMouse: true,
+  });
+
   return (
-    <div className="carousel-container">
+    <div className="carousel-container" {...handlers} >
       {slides.map((slide, index) => (
         <div
           key={index}

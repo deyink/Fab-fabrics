@@ -1,17 +1,33 @@
 import React, { useState, useEffect } from 'react'
 import '../components/css/Carousel2.css'
 import wedo from '../assets/wedo.jpg'
-
+import lt from '../assets/lt.png';
+import gt from '../assets/gt.png'
 const Carousel2= ()=> {
 
  const [currentSlide, setCurrentSlide] = useState(0);
 
  const content_arr = [
     {
-        head: 'Exclusive Arabian Brocade Lace',
+        head: 'Arabian Brocade Lace',
         dscrp: 'Every fashion minded needs, collection of differenct arabian exclusive fabrics, that dares fashion, it speaks nothing but luxuruy',
         pic: <img src={wedo} alt="" width='100%' height='100%' />
     },
+    {
+      head: 'Exclusive Brocade Lace',
+      dscrp: 'Every fashion minded needs, collection of differenct arabian exclusive fabrics, that dares fashion, it speaks nothing but luxuruy',
+      pic: <img src={wedo} alt="" width='100%' height='100%' />
+  },
+  {
+    head: 'Arabian Brocade Lace',
+    dscrp: 'Every fashion minded needs, collection of differenct arabian exclusive fabrics, that dares fashion, it speaks nothing but luxuruy',
+    pic: <img src={wedo} alt="" width='100%' height='100%' />
+},
+{
+  head: 'Exclusive Brocade Lace',
+  dscrp: 'Every fashion minded needs, collection of differenct arabian exclusive fabrics, that dares fashion, it speaks nothing but luxuruy',
+  pic: <img src={wedo} alt="" width='100%' height='100%' />
+},
  ];
 
  const nextSlide = () => {
@@ -30,17 +46,19 @@ const Carousel2= ()=> {
   return (
     <div className="slide-container">
         {content_arr.map((content, index)=>(
-            <div key={index} className="carousels">
+            <div key={index} className="carousels" style={{transform: `translateX(-${currentSlide * 100}%)`,
+          }} >
                 <div className="left-container">
-                    <h3> {content.head} </h3> <br /> <br />
+                    <h3> {content.head} </h3> <br /> 
                     <p> {content.dscrp} </p>
                 </div>
                 <div className="right-container">
                     <div className="caro-img">{content.pic}</div>
-                    <div className="dscp"></div>
+                    
                 </div>
             </div>
         ))}
+     
       
     </div>
   )
