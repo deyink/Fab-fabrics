@@ -1,35 +1,30 @@
 {
   "files": {
-    "main.css": "/fab-fabrics/static/css/main.a55ee60a.css",
-    "main.js": "/fab-fabrics/static/js/main.e1d1e17f.js",
+    "main.css": "/fab-fabrics/static/css/main.39f5a37c.css",
+    "main.js": "/fab-fabrics/static/js/main.4eca3a20.js",
     "static/js/453.c9772f7e.chunk.js": "/fab-fabrics/static/js/453.c9772f7e.chunk.js",
-    "static/media/hero-vid.mp4": "/fab-fabrics/static/media/hero-vid.418d8933344ffdf8f0bf.mp4",
-    "static/media/hero-m.mp4": "/fab-fabrics/static/media/hero-m.7f63e889c084409614ae.mp4",
     "static/media/carousel_img2.webp": "/fab-fabrics/static/media/carousel_img2.396fc3c9cc5aba2fa1b8.webp",
     "static/media/testimonial_back.webp": "/fab-fabrics/static/media/testimonial_back.646b33cf848c9674fb39.webp",
     "static/media/about_img.webp": "/fab-fabrics/static/media/about_img.691bbd2cdeb45d7c740d.webp",
     "static/media/carousel_img3.webp": "/fab-fabrics/static/media/carousel_img3.61da8c301b8f3584bff3.webp",
+    "static/media/cat3.jpg": "/fab-fabrics/static/media/cat3.6fcc9576b89102f50eb7.jpg",
     "static/media/wedo.jpg": "/fab-fabrics/static/media/wedo.98b3ce59a29eb3893cfc.jpg",
     "static/media/carousel_img.webp": "/fab-fabrics/static/media/carousel_img.d7d555cdf329afa144ff.webp",
     "static/media/Fab_logo.jpg": "/fab-fabrics/static/media/Fab_logo.42e0d8ea4451bba3846d.jpg",
     "static/media/cat2.jpg": "/fab-fabrics/static/media/cat2.431137479998445061c9.jpg",
     "static/media/cat4.jpg": "/fab-fabrics/static/media/cat4.b2fcddb54c3fd7d615bb.jpg",
     "static/media/cat1.jpg": "/fab-fabrics/static/media/cat1.f93bfe468f28316c01ff.jpg",
-    "static/media/cat3.jpg": "/fab-fabrics/static/media/cat3.8dff7b362844a1cb68f0.jpg",
-    "static/media/product_3.jpg": "/fab-fabrics/static/media/product_3.085d0c5bd86a4fb2547d.jpg",
-    "static/media/product_1.jpg": "/fab-fabrics/static/media/product_1.5ade68250fb8cf803c76.jpg",
-    "static/media/product_2.jpg": "/fab-fabrics/static/media/product_2.07c3f8536570e7281b0e.jpg",
     "static/media/slick.svg": "/fab-fabrics/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/fab-fabrics/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/fab-fabrics/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/fab-fabrics/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/fab-fabrics/index.html",
-    "main.a55ee60a.css.map": "/fab-fabrics/static/css/main.a55ee60a.css.map",
-    "main.e1d1e17f.js.map": "/fab-fabrics/static/js/main.e1d1e17f.js.map",
+    "main.39f5a37c.css.map": "/fab-fabrics/static/css/main.39f5a37c.css.map",
+    "main.4eca3a20.js.map": "/fab-fabrics/static/js/main.4eca3a20.js.map",
     "453.c9772f7e.chunk.js.map": "/fab-fabrics/static/js/453.c9772f7e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a55ee60a.css",
-    "static/js/main.e1d1e17f.js"
+    "static/css/main.39f5a37c.css",
+    "static/js/main.4eca3a20.js"
   ]
 }
