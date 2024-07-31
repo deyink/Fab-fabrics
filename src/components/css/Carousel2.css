@@ -32,6 +32,7 @@
     width: 59.5%;
     float: left;
     padding: 50px;
+    padding-left: 100px;
     
 }
 @media(max-width:800px){
@@ -67,22 +68,27 @@
 
     }
 }
-/* button {
+.cprev-button, .cnext-button {
     position: absolute;
-    top: 50%;
+    top: 170%;
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    border: none;
+    border: solid gray 0.1px;
     padding: 10px;
     cursor: pointer;
     z-index: 1;
+    background-color: white;
+    border-radius: 20px;
+
+    
+  }
+
+  
+  .cprev-button {
+    left: 70px;
   }
   
-  .prev-button {
-    left: 10px;
-  }
-  
-  .next-button {
-    right: 10px;
-  } */
+  .cnext-button {
+    right: 70px;
+  } 

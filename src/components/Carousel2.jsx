@@ -69,8 +69,9 @@ const Carousel2= ()=> {
                 </div>
             </div>
         ))}
-     
-      
+    
+    <button className="cprev-button" id='btn-ar' onClick={prevSlide}> <img src={lt} alt="" /> </button>
+    <button className="cnext-button" id='btn-ar' onClick={nextSlide}> <img src={gt} alt="" /> </button>
     </div>
   )
 }
