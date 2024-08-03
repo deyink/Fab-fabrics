@@ -74,11 +74,11 @@
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    border: solid gray 0.1px;
+    border:  gray 0.9px;
     padding: 10px;
     cursor: pointer;
     z-index: 1;
-    background-color: white;
+    background-color: rgb(213, 211, 211);
     border-radius: 20px;
 
     
@@ -90,5 +90,5 @@
   }
   
   .cnext-button {
-    right: 70px;
+    right: 50px;
   } 
