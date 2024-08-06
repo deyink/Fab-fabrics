@@ -1,20 +1,33 @@
 .offer{
-    height: 50vh;
+    height: auto;
     width: 90%;
-    background-color: yellow;
+    background-color: red;
     margin: auto;
     margin-top: 30px;
 }
 .offer-container{
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    margin: auto;
+    overflow: hidden;
+    flex-wrap: wrap;
 }
 .o-box{
-    width: 24%;
-    height: 300px;
+    width: 25%;
+    height: 400px;
+    margin: auto;
     background-color: blue;
+    transform: scale(0.93);
+    
 }
-.o-box:hover{
-    transform: scale(1.0, 1.3);
+
+/* .o-box:hover{
+    transform: scale(1, 1.1);
+    transition: ease-in-out;
+    z-index: 999;
+} */
+.o-box img{
+    width: 100%;
+    height: 70%;
+    
 }
